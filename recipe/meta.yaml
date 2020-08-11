@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 package:
   name: sparsehash
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/sparsehash/sparsehash/archive/sparsehash-{{ version }}.tar.gz
-  sha256: 05e986a5c7327796dad742182b2d10805a8d4f511ad090da0490f146c1ff7a8c
+  sha256: 8cd1a95827dfd8270927894eb77f62b4087735cbede953884647f16c521c7e58
 
 build:
-  number: 1000
+  number: 0
 
 requirements:
   build:
@@ -33,7 +33,8 @@ test:
 about:
   home: https://github.com/sparsehash/sparsehash
   license: BSD-3-Clause
-  summary: "Sparsehash libarry is an extremely memory-efficient hash_map implementation"
+  license_file: COPYING
+  summary: Sparsehash libarry is an extremely memory-efficient hash_map implementation
 
 extra:
   recipe-maintainers:
