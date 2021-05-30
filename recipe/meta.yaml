@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 package:
   name: sparsehash
@@ -16,7 +16,6 @@ requirements:
     - pkg-config  # [not win]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-  host:
 
 test:
   commands:
@@ -33,9 +32,10 @@ test:
 about:
   home: https://github.com/sparsehash/sparsehash
   license: BSD-3-Clause
-  summary: "Sparsehash libarry is an extremely memory-efficient hash_map implementation"
+  summary: "Sparsehash library is an extremely memory-efficient hash_map implementation."
 
 extra:
   recipe-maintainers:
     - vgauthier
     - edisongustavo
+    - benjaminrwilson
