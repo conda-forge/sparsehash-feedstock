@@ -13,7 +13,7 @@ build:
 
 requirements:
   build:
-    - make # [not win]
+    - make  # [not win]
     - pkg-config  # [not win]
     - gnuconfig  # [unix]
     - {{ compiler('c') }}
